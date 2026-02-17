@@ -2,7 +2,7 @@
     'use strict';
 
     function UA_Plugin(api) {
-        var server_url = 'https://ВАШ_URL_НА_RENDER.onrender.com';
+        var server_url = 'https://lampa-904p.onrender.com';
 
         this.search = function (params) {
             Lampa.Network.native(server_url + '/search?q=' + encodeURIComponent(params.query), function (data) {
